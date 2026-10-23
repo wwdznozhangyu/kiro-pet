@@ -1,0 +1,88 @@
+.pet {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  -webkit-app-region: no-drag;
+}
+
+.mascot {
+  transform-origin: 50% 90%;
+  transition: transform 0.2s ease;
+  will-change: transform;
+}
+
+/* Jump */
+.pet--jump .mascot {
+  animation: pet-jump 0.6s ease;
+}
+@keyframes pet-jump {
+  0% { transform: translateY(0) scale(1, 1); }
+  25% { transform: translateY(-2px) scale(1.06, 0.94); }
+  55% { transform: translateY(-26px) scale(0.96, 1.06); }
+  80% { transform: translateY(0) scale(1.08, 0.92); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+
+/* Wander: a gentle waddle */
+.pet--wander .mascot {
+  animation: pet-waddle 0.9s ease-in-out;
+}
+@keyframes pet-waddle {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(-5deg) translateY(-2px); }
+  75% { transform: rotate(5deg) translateY(-2px); }
+}
+
+/* Hold sign: bounce with excitement */
+.pet--hold-sign .mascot {
+  animation: pet-bounce 0.5s ease-in-out infinite alternate;
+}
+@keyframes pet-bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-6px); }
+}
+
+/* Nod (after card closes) */
+.mascot--nod {
+  animation: pet-nod 0.9s ease;
+}
+@keyframes pet-nod {
+  0%, 100% { transform: rotate(0deg); }
+  30% { transform: rotate(12deg); }
+  60% { transform: rotate(-6deg); }
+}
+
+/* Wag tail */
+.mascot__tail {
+  transform-origin: 80px 150px;
+}
+.mascot__tail--wag {
+  animation: pet-wag 0.25s ease-in-out infinite alternate;
+}
+@keyframes pet-wag {
+  from { transform: rotate(-10deg); }
+  to { transform: rotate(10deg); }
+}
+
+/* Speech sign shown on hold-sign */
+.pet__sign {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  color: #6d28d9;
+  font: 600 13px/1 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  padding: 6px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(109, 40, 217, 0.3);
+  white-space: nowrap;
+  animation: sign-pop 0.3s ease;
+}
+@keyframes sign-pop {
+  from { transform: translateX(-50%) scale(0.6); opacity: 0; }
+  to { transform: translateX(-50%) scale(1); opacity: 1; }
+}

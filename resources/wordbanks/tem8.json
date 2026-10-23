@@ -1,0 +1,127 @@
+[
+  {
+    "word": "ambivalent",
+    "ukPhonetic": "æmˈbɪvələnt",
+    "usPhonetic": "æmˈbɪvələnt",
+    "meanings": [
+      { "pos": "adj.", "text": "矛盾的；有矛盾情绪的" }
+    ],
+    "synonyms": ["conflicted", "uncertain"],
+    "tags": ["TEM8", "TOEFL"]
+  },
+  {
+    "word": "capricious",
+    "ukPhonetic": "kəˈprɪʃəs",
+    "usPhonetic": "kəˈprɪʃəs",
+    "meanings": [
+      { "pos": "adj.", "text": "反复无常的；任性的" }
+    ],
+    "synonyms": ["fickle", "unpredictable"],
+    "tags": ["TEM8"]
+  },
+  {
+    "word": "deteriorate",
+    "ukPhonetic": "dɪˈtɪəriəreɪt",
+    "usPhonetic": "dɪˈtɪriəreɪt",
+    "meanings": [
+      { "pos": "vi.", "text": "恶化；退化" },
+      { "pos": "vt.", "text": "使变坏" }
+    ],
+    "synonyms": ["worsen", "decline", "degrade"],
+    "tags": ["TEM8", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "eloquent",
+    "ukPhonetic": "ˈeləkwənt",
+    "usPhonetic": "ˈeləkwənt",
+    "meanings": [
+      { "pos": "adj.", "text": "雄辩的；有说服力的" },
+      { "pos": "adj.", "text": "明白显示的；意味深长的" }
+    ],
+    "synonyms": ["articulate", "expressive"],
+    "tags": ["TEM8", "IELTS"]
+  },
+  {
+    "word": "formidable",
+    "ukPhonetic": "ˈfɔːmɪdəbl",
+    "usPhonetic": "ˈfɔːrmɪdəbl",
+    "meanings": [
+      { "pos": "adj.", "text": "可怕的；令人敬畏的" },
+      { "pos": "adj.", "text": "艰巨的；强大的" }
+    ],
+    "synonyms": ["daunting", "intimidating"],
+    "tags": ["TEM8", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "gregarious",
+    "ukPhonetic": "ɡrɪˈɡeəriəs",
+    "usPhonetic": "ɡrɪˈɡeriəs",
+    "meanings": [
+      { "pos": "adj.", "text": "合群的；爱交际的" },
+      { "pos": "adj.", "text": "（动物）群居的" }
+    ],
+    "synonyms": ["sociable", "outgoing"],
+    "tags": ["TEM8"]
+  },
+  {
+    "word": "impeccable",
+    "ukPhonetic": "ɪmˈpekəbl",
+    "usPhonetic": "ɪmˈpekəbl",
+    "meanings": [
+      { "pos": "adj.", "text": "无可挑剔的；完美的" }
+    ],
+    "synonyms": ["flawless", "faultless"],
+    "tags": ["TEM8", "IELTS"]
+  },
+  {
+    "word": "meticulous",
+    "ukPhonetic": "məˈtɪkjələs",
+    "usPhonetic": "məˈtɪkjələs",
+    "meanings": [
+      { "pos": "adj.", "text": "一丝不苟的；极仔细的" }
+    ],
+    "synonyms": ["careful", "thorough", "precise"],
+    "tags": ["TEM8", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "paradox",
+    "ukPhonetic": "ˈpærədɒks",
+    "usPhonetic": "ˈpærədɑːks",
+    "meanings": [
+      { "pos": "n.", "text": "悖论；自相矛盾的事物" }
+    ],
+    "synonyms": ["contradiction", "puzzle"],
+    "tags": ["TEM8", "TOEFL"]
+  },
+  {
+    "word": "profound",
+    "ukPhonetic": "prəˈfaʊnd",
+    "usPhonetic": "prəˈfaʊnd",
+    "meanings": [
+      { "pos": "adj.", "text": "深刻的；意义深远的" },
+      { "pos": "adj.", "text": "深厚的；渊博的" }
+    ],
+    "synonyms": ["deep", "intense"],
+    "tags": ["TEM8", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "scrutiny",
+    "ukPhonetic": "ˈskruːtəni",
+    "usPhonetic": "ˈskruːtəni",
+    "meanings": [
+      { "pos": "n.", "text": "仔细检查；审查" }
+    ],
+    "synonyms": ["examination", "inspection"],
+    "tags": ["TEM8", "IELTS"]
+  },
+  {
+    "word": "ubiquitous",
+    "ukPhonetic": "juːˈbɪkwɪtəs",
+    "usPhonetic": "juːˈbɪkwɪtəs",
+    "meanings": [
+      { "pos": "adj.", "text": "无处不在的；普遍存在的" }
+    ],
+    "synonyms": ["omnipresent", "universal"],
+    "tags": ["TEM8", "TOEFL"]
+  }
+]

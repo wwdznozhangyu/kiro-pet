@@ -1,0 +1,129 @@
+[
+  {
+    "word": "allocate",
+    "ukPhonetic": "ˈæləkeɪt",
+    "usPhonetic": "ˈæləkeɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "分配；拨给" },
+      { "pos": "vt.", "text": "划拨（资源、时间）" }
+    ],
+    "synonyms": ["assign", "distribute", "allot"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "coherent",
+    "ukPhonetic": "kəʊˈhɪərənt",
+    "usPhonetic": "koʊˈhɪrənt",
+    "meanings": [
+      { "pos": "adj.", "text": "连贯的；条理清楚的" },
+      { "pos": "adj.", "text": "一致的；协调的" }
+    ],
+    "synonyms": ["logical", "consistent", "clear"],
+    "tags": ["IELTS", "TOEFL", "TEM8"]
+  },
+  {
+    "word": "diminish",
+    "ukPhonetic": "dɪˈmɪnɪʃ",
+    "usPhonetic": "dɪˈmɪnɪʃ",
+    "meanings": [
+      { "pos": "v.", "text": "减少；削弱" },
+      { "pos": "vt.", "text": "贬低；轻视" }
+    ],
+    "synonyms": ["decrease", "reduce", "lessen"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "emphasize",
+    "ukPhonetic": "ˈemfəsaɪz",
+    "usPhonetic": "ˈemfəsaɪz",
+    "meanings": [
+      { "pos": "vt.", "text": "强调；着重" }
+    ],
+    "synonyms": ["stress", "highlight", "underline"],
+    "tags": ["IELTS", "TOEFL", "CET4"]
+  },
+  {
+    "word": "feasible",
+    "ukPhonetic": "ˈfiːzəbl",
+    "usPhonetic": "ˈfiːzəbl",
+    "meanings": [
+      { "pos": "adj.", "text": "可行的；行得通的" }
+    ],
+    "synonyms": ["viable", "practicable", "possible"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "hierarchy",
+    "ukPhonetic": "ˈhaɪərɑːki",
+    "usPhonetic": "ˈhaɪərɑːrki",
+    "meanings": [
+      { "pos": "n.", "text": "等级制度；层级" }
+    ],
+    "synonyms": ["ranking", "order"],
+    "tags": ["IELTS", "TOEFL", "TEM8"]
+  },
+  {
+    "word": "infrastructure",
+    "ukPhonetic": "ˈɪnfrəstrʌktʃə",
+    "usPhonetic": "ˈɪnfrəstrʌktʃər",
+    "meanings": [
+      { "pos": "n.", "text": "基础设施；基础建设" }
+    ],
+    "synonyms": ["foundation", "framework"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "phenomenon",
+    "ukPhonetic": "fəˈnɒmɪnən",
+    "usPhonetic": "fəˈnɑːmɪnɑːn",
+    "meanings": [
+      { "pos": "n.", "text": "现象" },
+      { "pos": "n.", "text": "非凡的人（或事物）" }
+    ],
+    "synonyms": ["occurrence", "event"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "substantial",
+    "ukPhonetic": "səbˈstænʃl",
+    "usPhonetic": "səbˈstænʃl",
+    "meanings": [
+      { "pos": "adj.", "text": "大量的；可观的" },
+      { "pos": "adj.", "text": "坚固的；结实的" }
+    ],
+    "synonyms": ["considerable", "significant", "large"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "undergo",
+    "ukPhonetic": "ˌʌndəˈɡəʊ",
+    "usPhonetic": "ˌʌndərˈɡoʊ",
+    "meanings": [
+      { "pos": "vt.", "text": "经历；经受" },
+      { "pos": "vt.", "text": "接受（治疗、检查等）" }
+    ],
+    "synonyms": ["experience", "endure"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "vulnerable",
+    "ukPhonetic": "ˈvʌlnərəbl",
+    "usPhonetic": "ˈvʌlnərəbl",
+    "meanings": [
+      { "pos": "adj.", "text": "易受伤害的；脆弱的" },
+      { "pos": "adj.", "text": "易受攻击的" }
+    ],
+    "synonyms": ["susceptible", "exposed", "fragile"],
+    "tags": ["IELTS", "TOEFL", "TEM8"]
+  },
+  {
+    "word": "widespread",
+    "ukPhonetic": "ˈwaɪdspred",
+    "usPhonetic": "ˈwaɪdspred",
+    "meanings": [
+      { "pos": "adj.", "text": "普遍的；广泛的" }
+    ],
+    "synonyms": ["prevalent", "extensive", "common"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  }
+]

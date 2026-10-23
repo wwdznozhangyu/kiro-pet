@@ -1,0 +1,169 @@
+[
+  {
+    "word": "abandon",
+    "ukPhonetic": "əˈbændən",
+    "usPhonetic": "əˈbændən",
+    "meanings": [
+      { "pos": "vt.", "text": "放弃；抛弃" },
+      { "pos": "vt.", "text": "遗弃（某人）" },
+      { "pos": "n.", "text": "放纵；狂热" }
+    ],
+    "synonyms": ["desert", "forsake", "quit"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "benefit",
+    "ukPhonetic": "ˈbenɪfɪt",
+    "usPhonetic": "ˈbenɪfɪt",
+    "meanings": [
+      { "pos": "n.", "text": "利益；好处" },
+      { "pos": "v.", "text": "使受益；得益" },
+      { "pos": "n.", "text": "津贴；救济金" }
+    ],
+    "synonyms": ["advantage", "profit", "gain"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "concentrate",
+    "ukPhonetic": "ˈkɒnsntreɪt",
+    "usPhonetic": "ˈkɑːnsntreɪt",
+    "meanings": [
+      { "pos": "v.", "text": "集中（注意力）；专心" },
+      { "pos": "v.", "text": "使浓缩" },
+      { "pos": "n.", "text": "浓缩物" }
+    ],
+    "synonyms": ["focus", "center"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "demonstrate",
+    "ukPhonetic": "ˈdemənstreɪt",
+    "usPhonetic": "ˈdemənstreɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "证明；论证" },
+      { "pos": "vt.", "text": "演示；说明" },
+      { "pos": "vi.", "text": "示威游行" }
+    ],
+    "synonyms": ["prove", "show", "illustrate"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "efficient",
+    "ukPhonetic": "ɪˈfɪʃnt",
+    "usPhonetic": "ɪˈfɪʃnt",
+    "meanings": [
+      { "pos": "adj.", "text": "效率高的；有能力的" },
+      { "pos": "adj.", "text": "（机器等）节能的" }
+    ],
+    "synonyms": ["effective", "productive"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "frequent",
+    "ukPhonetic": "ˈfriːkwənt",
+    "usPhonetic": "ˈfriːkwənt",
+    "meanings": [
+      { "pos": "adj.", "text": "频繁的；经常的" },
+      { "pos": "vt.", "text": "常去；常到" }
+    ],
+    "synonyms": ["common", "regular"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "generate",
+    "ukPhonetic": "ˈdʒenəreɪt",
+    "usPhonetic": "ˈdʒenəreɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "产生；引起" },
+      { "pos": "vt.", "text": "发（电）；生成" }
+    ],
+    "synonyms": ["produce", "create"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "hesitate",
+    "ukPhonetic": "ˈhezɪteɪt",
+    "usPhonetic": "ˈhezɪteɪt",
+    "meanings": [
+      { "pos": "vi.", "text": "犹豫；踌躇" },
+      { "pos": "vi.", "text": "不愿；有顾虑" }
+    ],
+    "synonyms": ["pause", "waver"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "indicate",
+    "ukPhonetic": "ˈɪndɪkeɪt",
+    "usPhonetic": "ˈɪndɪkeɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "表明；指出" },
+      { "pos": "vt.", "text": "象征；暗示" }
+    ],
+    "synonyms": ["show", "signal", "suggest"],
+    "tags": ["CET4", "CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "maintain",
+    "ukPhonetic": "meɪnˈteɪn",
+    "usPhonetic": "meɪnˈteɪn",
+    "meanings": [
+      { "pos": "vt.", "text": "维持；保持" },
+      { "pos": "vt.", "text": "维修；保养" },
+      { "pos": "vt.", "text": "坚持（主张）" }
+    ],
+    "synonyms": ["sustain", "preserve", "keep"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "obvious",
+    "ukPhonetic": "ˈɒbviəs",
+    "usPhonetic": "ˈɑːbviəs",
+    "meanings": [
+      { "pos": "adj.", "text": "明显的；显而易见的" }
+    ],
+    "synonyms": ["evident", "clear", "apparent"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "participate",
+    "ukPhonetic": "pɑːˈtɪsɪpeɪt",
+    "usPhonetic": "pɑːrˈtɪsɪpeɪt",
+    "meanings": [
+      { "pos": "vi.", "text": "参加；参与" }
+    ],
+    "synonyms": ["join", "engage"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "reduce",
+    "ukPhonetic": "rɪˈdjuːs",
+    "usPhonetic": "rɪˈduːs",
+    "meanings": [
+      { "pos": "vt.", "text": "减少；降低" },
+      { "pos": "vt.", "text": "使沦为；使陷入" }
+    ],
+    "synonyms": ["decrease", "lower", "cut"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "significant",
+    "ukPhonetic": "sɪɡˈnɪfɪkənt",
+    "usPhonetic": "sɪɡˈnɪfɪkənt",
+    "meanings": [
+      { "pos": "adj.", "text": "重要的；重大的" },
+      { "pos": "adj.", "text": "意味深长的" }
+    ],
+    "synonyms": ["important", "notable", "major"],
+    "tags": ["CET4", "CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "tendency",
+    "ukPhonetic": "ˈtendənsi",
+    "usPhonetic": "ˈtendənsi",
+    "meanings": [
+      { "pos": "n.", "text": "趋势；倾向" }
+    ],
+    "synonyms": ["trend", "inclination"],
+    "tags": ["CET4", "CET6"]
+  }
+]

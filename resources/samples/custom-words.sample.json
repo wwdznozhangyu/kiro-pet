@@ -1,0 +1,23 @@
+[
+  {
+    "word": "serendipity",
+    "ukPhonetic": "ˌserənˈdɪpəti",
+    "usPhonetic": "ˌserənˈdɪpəti",
+    "meanings": [
+      { "pos": "n.", "text": "意外发现美好事物的运气；机缘巧合" }
+    ],
+    "synonyms": ["chance", "luck", "fortune"],
+    "tags": ["TEM8", "TOEFL"]
+  },
+  {
+    "word": "resilient",
+    "ukPhonetic": "rɪˈzɪliənt",
+    "usPhonetic": "rɪˈzɪliənt",
+    "meanings": [
+      { "pos": "adj.", "text": "有恢复力的；坚韧的" },
+      { "pos": "adj.", "text": "有弹性的" }
+    ],
+    "synonyms": ["tough", "flexible"],
+    "tags": ["IELTS", "TOEFL"]
+  }
+]

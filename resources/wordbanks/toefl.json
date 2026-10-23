@@ -1,0 +1,129 @@
+[
+  {
+    "word": "abundant",
+    "ukPhonetic": "əˈbʌndənt",
+    "usPhonetic": "əˈbʌndənt",
+    "meanings": [
+      { "pos": "adj.", "text": "丰富的；大量的" }
+    ],
+    "synonyms": ["plentiful", "ample", "copious"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "constitute",
+    "ukPhonetic": "ˈkɒnstɪtjuːt",
+    "usPhonetic": "ˈkɑːnstɪtuːt",
+    "meanings": [
+      { "pos": "vt.", "text": "构成；组成" },
+      { "pos": "vt.", "text": "设立；任命" }
+    ],
+    "synonyms": ["form", "compose", "make up"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "diverse",
+    "ukPhonetic": "daɪˈvɜːs",
+    "usPhonetic": "daɪˈvɜːrs",
+    "meanings": [
+      { "pos": "adj.", "text": "多种多样的；不同的" }
+    ],
+    "synonyms": ["varied", "assorted", "different"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "evolve",
+    "ukPhonetic": "ɪˈvɒlv",
+    "usPhonetic": "ɪˈvɑːlv",
+    "meanings": [
+      { "pos": "v.", "text": "进化；演变" },
+      { "pos": "v.", "text": "逐渐发展" }
+    ],
+    "synonyms": ["develop", "progress"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "facilitate",
+    "ukPhonetic": "fəˈsɪlɪteɪt",
+    "usPhonetic": "fəˈsɪlɪteɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "促进；使便利" }
+    ],
+    "synonyms": ["ease", "assist", "aid"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "hypothesis",
+    "ukPhonetic": "haɪˈpɒθəsɪs",
+    "usPhonetic": "haɪˈpɑːθəsɪs",
+    "meanings": [
+      { "pos": "n.", "text": "假设；假说" }
+    ],
+    "synonyms": ["theory", "assumption", "premise"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "integral",
+    "ukPhonetic": "ˈɪntɪɡrəl",
+    "usPhonetic": "ˈɪntɪɡrəl",
+    "meanings": [
+      { "pos": "adj.", "text": "不可或缺的；基本的" },
+      { "pos": "adj.", "text": "完整的；构成整体的" }
+    ],
+    "synonyms": ["essential", "intrinsic"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "paradigm",
+    "ukPhonetic": "ˈpærədaɪm",
+    "usPhonetic": "ˈpærədaɪm",
+    "meanings": [
+      { "pos": "n.", "text": "范式；典范" },
+      { "pos": "n.", "text": "样板；模式" }
+    ],
+    "synonyms": ["model", "pattern", "example"],
+    "tags": ["TOEFL", "TEM8"]
+  },
+  {
+    "word": "prominent",
+    "ukPhonetic": "ˈprɒmɪnənt",
+    "usPhonetic": "ˈprɑːmɪnənt",
+    "meanings": [
+      { "pos": "adj.", "text": "著名的；杰出的" },
+      { "pos": "adj.", "text": "突出的；显眼的" }
+    ],
+    "synonyms": ["notable", "distinguished", "conspicuous"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "retain",
+    "ukPhonetic": "rɪˈteɪn",
+    "usPhonetic": "rɪˈteɪn",
+    "meanings": [
+      { "pos": "vt.", "text": "保留；保持" },
+      { "pos": "vt.", "text": "记住；留住" }
+    ],
+    "synonyms": ["keep", "preserve", "maintain"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "simultaneous",
+    "ukPhonetic": "ˌsɪmlˈteɪniəs",
+    "usPhonetic": "ˌsaɪmlˈteɪniəs",
+    "meanings": [
+      { "pos": "adj.", "text": "同时发生的；同步的" }
+    ],
+    "synonyms": ["concurrent", "coinciding"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "theoretical",
+    "ukPhonetic": "ˌθɪəˈretɪkl",
+    "usPhonetic": "ˌθiːəˈretɪkl",
+    "meanings": [
+      { "pos": "adj.", "text": "理论的；理论上的" },
+      { "pos": "adj.", "text": "假设的；推测的" }
+    ],
+    "synonyms": ["abstract", "hypothetical"],
+    "tags": ["TOEFL", "IELTS", "CET6"]
+  }
+]
