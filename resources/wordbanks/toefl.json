@@ -125,5 +125,67 @@
     ],
     "synonyms": ["abstract", "hypothetical"],
     "tags": ["TOEFL", "IELTS", "CET6"]
+  },
+  {
+    "word": "adjacent",
+    "ukPhonetic": "əˈdʒeɪsnt",
+    "usPhonetic": "əˈdʒeɪsnt",
+    "meanings": [
+      { "pos": "adj.", "text": "邻近的；毗连的" }
+    ],
+    "synonyms": ["neighboring", "adjoining"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "correlate",
+    "ukPhonetic": "ˈkɒrəleɪt",
+    "usPhonetic": "ˈkɔːrəleɪt",
+    "meanings": [
+      { "pos": "v.", "text": "相关联；使相互关联" }
+    ],
+    "synonyms": ["relate", "associate", "link"],
+    "tags": ["TOEFL", "IELTS"]
+  },
+  {
+    "word": "deplete",
+    "ukPhonetic": "dɪˈpliːt",
+    "usPhonetic": "dɪˈpliːt",
+    "meanings": [
+      { "pos": "vt.", "text": "耗尽；使枯竭" }
+    ],
+    "synonyms": ["exhaust", "drain", "use up"],
+    "tags": ["TOEFL", "IELTS"]
+  },
+  {
+    "word": "elaborate",
+    "ukPhonetic": "ɪˈlæbərət",
+    "usPhonetic": "ɪˈlæbərət",
+    "meanings": [
+      { "pos": "adj.", "text": "详尽的；精心制作的" },
+      { "pos": "v.", "text": "详细阐述" }
+    ],
+    "synonyms": ["detailed", "intricate"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "prevalent",
+    "ukPhonetic": "ˈprevələnt",
+    "usPhonetic": "ˈprevələnt",
+    "meanings": [
+      { "pos": "adj.", "text": "流行的；普遍的" }
+    ],
+    "synonyms": ["widespread", "common", "rife"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
+  },
+  {
+    "word": "undermine",
+    "ukPhonetic": "ˌʌndəˈmaɪn",
+    "usPhonetic": "ˌʌndərˈmaɪn",
+    "meanings": [
+      { "pos": "vt.", "text": "逐渐削弱；损害" },
+      { "pos": "vt.", "text": "暗中破坏" }
+    ],
+    "synonyms": ["weaken", "sabotage", "erode"],
+    "tags": ["TOEFL", "IELTS", "TEM8"]
   }
 ]

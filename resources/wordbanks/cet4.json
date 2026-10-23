@@ -165,5 +165,104 @@
     ],
     "synonyms": ["trend", "inclination"],
     "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "achieve",
+    "ukPhonetic": "əˈtʃiːv",
+    "usPhonetic": "əˈtʃiːv",
+    "meanings": [
+      { "pos": "vt.", "text": "实现；达到" },
+      { "pos": "vt.", "text": "取得（成功）" }
+    ],
+    "synonyms": ["accomplish", "attain", "reach"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "available",
+    "ukPhonetic": "əˈveɪləbl",
+    "usPhonetic": "əˈveɪləbl",
+    "meanings": [
+      { "pos": "adj.", "text": "可获得的；可用的" },
+      { "pos": "adj.", "text": "有空的" }
+    ],
+    "synonyms": ["accessible", "obtainable"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "comment",
+    "ukPhonetic": "ˈkɒment",
+    "usPhonetic": "ˈkɑːment",
+    "meanings": [
+      { "pos": "n.", "text": "评论；意见" },
+      { "pos": "v.", "text": "评论；发表意见" }
+    ],
+    "synonyms": ["remark", "note"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "distribute",
+    "ukPhonetic": "dɪˈstrɪbjuːt",
+    "usPhonetic": "dɪˈstrɪbjuːt",
+    "meanings": [
+      { "pos": "vt.", "text": "分发；分配" },
+      { "pos": "vt.", "text": "分布；散布" }
+    ],
+    "synonyms": ["allocate", "hand out", "spread"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "estimate",
+    "ukPhonetic": "ˈestɪmeɪt",
+    "usPhonetic": "ˈestɪmeɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "估计；估算" },
+      { "pos": "n.", "text": "估计；评价" }
+    ],
+    "synonyms": ["assess", "calculate", "gauge"],
+    "tags": ["CET4", "CET6", "IELTS"]
+  },
+  {
+    "word": "ignore",
+    "ukPhonetic": "ɪɡˈnɔː",
+    "usPhonetic": "ɪɡˈnɔːr",
+    "meanings": [
+      { "pos": "vt.", "text": "忽视；不理会" }
+    ],
+    "synonyms": ["neglect", "overlook", "disregard"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "occur",
+    "ukPhonetic": "əˈkɜː",
+    "usPhonetic": "əˈkɜːr",
+    "meanings": [
+      { "pos": "vi.", "text": "发生；出现" },
+      { "pos": "vi.", "text": "（想法）浮现于脑海" }
+    ],
+    "synonyms": ["happen", "arise", "take place"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "purchase",
+    "ukPhonetic": "ˈpɜːtʃəs",
+    "usPhonetic": "ˈpɜːrtʃəs",
+    "meanings": [
+      { "pos": "vt.", "text": "购买" },
+      { "pos": "n.", "text": "购买；购得物" }
+    ],
+    "synonyms": ["buy", "acquire"],
+    "tags": ["CET4", "CET6"]
+  },
+  {
+    "word": "release",
+    "ukPhonetic": "rɪˈliːs",
+    "usPhonetic": "rɪˈliːs",
+    "meanings": [
+      { "pos": "vt.", "text": "释放；放开" },
+      { "pos": "vt.", "text": "发布；发行" },
+      { "pos": "n.", "text": "发布；释放" }
+    ],
+    "synonyms": ["free", "issue", "liberate"],
+    "tags": ["CET4", "CET6"]
   }
 ]

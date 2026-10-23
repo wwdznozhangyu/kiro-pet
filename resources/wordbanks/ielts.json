@@ -125,5 +125,76 @@
     ],
     "synonyms": ["prevalent", "extensive", "common"],
     "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "accumulate",
+    "ukPhonetic": "əˈkjuːmjəleɪt",
+    "usPhonetic": "əˈkjuːmjəleɪt",
+    "meanings": [
+      { "pos": "v.", "text": "积累；积聚" }
+    ],
+    "synonyms": ["amass", "gather", "build up"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "consequence",
+    "ukPhonetic": "ˈkɒnsɪkwəns",
+    "usPhonetic": "ˈkɑːnsəkwens",
+    "meanings": [
+      { "pos": "n.", "text": "结果；后果" },
+      { "pos": "n.", "text": "重要性" }
+    ],
+    "synonyms": ["result", "outcome", "effect"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "deteriorate",
+    "ukPhonetic": "dɪˈtɪəriəreɪt",
+    "usPhonetic": "dɪˈtɪriəreɪt",
+    "meanings": [
+      { "pos": "vi.", "text": "恶化；退化" }
+    ],
+    "synonyms": ["worsen", "decline", "degrade"],
+    "tags": ["IELTS", "TOEFL", "TEM8"]
+  },
+  {
+    "word": "enhance",
+    "ukPhonetic": "ɪnˈhɑːns",
+    "usPhonetic": "ɪnˈhæns",
+    "meanings": [
+      { "pos": "vt.", "text": "提高；增强" }
+    ],
+    "synonyms": ["improve", "boost", "strengthen"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "fluctuate",
+    "ukPhonetic": "ˈflʌktʃueɪt",
+    "usPhonetic": "ˈflʌktʃueɪt",
+    "meanings": [
+      { "pos": "vi.", "text": "波动；起伏不定" }
+    ],
+    "synonyms": ["vary", "oscillate", "swing"],
+    "tags": ["IELTS", "TOEFL"]
+  },
+  {
+    "word": "prohibit",
+    "ukPhonetic": "prəˈhɪbɪt",
+    "usPhonetic": "prəˈhɪbɪt",
+    "meanings": [
+      { "pos": "vt.", "text": "禁止；阻止" }
+    ],
+    "synonyms": ["forbid", "ban", "bar"],
+    "tags": ["IELTS", "TOEFL", "CET6"]
+  },
+  {
+    "word": "subsequent",
+    "ukPhonetic": "ˈsʌbsɪkwənt",
+    "usPhonetic": "ˈsʌbsɪkwənt",
+    "meanings": [
+      { "pos": "adj.", "text": "随后的；后来的" }
+    ],
+    "synonyms": ["following", "ensuing", "later"],
+    "tags": ["IELTS", "TOEFL", "TEM8"]
   }
 ]

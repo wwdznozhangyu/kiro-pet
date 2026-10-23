@@ -154,5 +154,78 @@
     ],
     "synonyms": ["adaptable", "flexible", "all-round"],
     "tags": ["CET6", "TEM8", "IELTS"]
+  },
+  {
+    "word": "ambiguous",
+    "ukPhonetic": "æmˈbɪɡjuəs",
+    "usPhonetic": "æmˈbɪɡjuəs",
+    "meanings": [
+      { "pos": "adj.", "text": "模棱两可的；含糊不清的" }
+    ],
+    "synonyms": ["vague", "unclear", "equivocal"],
+    "tags": ["CET6", "TEM8", "IELTS"]
+  },
+  {
+    "word": "compensate",
+    "ukPhonetic": "ˈkɒmpenseɪt",
+    "usPhonetic": "ˈkɑːmpenseɪt",
+    "meanings": [
+      { "pos": "v.", "text": "补偿；赔偿" },
+      { "pos": "vi.", "text": "弥补；抵消" }
+    ],
+    "synonyms": ["reimburse", "offset", "make up"],
+    "tags": ["CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "diminish",
+    "ukPhonetic": "dɪˈmɪnɪʃ",
+    "usPhonetic": "dɪˈmɪnɪʃ",
+    "meanings": [
+      { "pos": "v.", "text": "减少；减弱" }
+    ],
+    "synonyms": ["decrease", "reduce", "lessen"],
+    "tags": ["CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "endure",
+    "ukPhonetic": "ɪnˈdjʊə",
+    "usPhonetic": "ɪnˈdʊr",
+    "meanings": [
+      { "pos": "vt.", "text": "忍受；忍耐" },
+      { "pos": "vi.", "text": "持续；持久" }
+    ],
+    "synonyms": ["bear", "tolerate", "withstand"],
+    "tags": ["CET6", "TEM8", "IELTS"]
+  },
+  {
+    "word": "inevitable",
+    "ukPhonetic": "ɪnˈevɪtəbl",
+    "usPhonetic": "ɪnˈevɪtəbl",
+    "meanings": [
+      { "pos": "adj.", "text": "不可避免的；必然的" }
+    ],
+    "synonyms": ["unavoidable", "certain"],
+    "tags": ["CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "integrate",
+    "ukPhonetic": "ˈɪntɪɡreɪt",
+    "usPhonetic": "ˈɪntɪɡreɪt",
+    "meanings": [
+      { "pos": "v.", "text": "整合；使成一体" },
+      { "pos": "v.", "text": "融入；结合" }
+    ],
+    "synonyms": ["combine", "merge", "unify"],
+    "tags": ["CET6", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "reluctant",
+    "ukPhonetic": "rɪˈlʌktənt",
+    "usPhonetic": "rɪˈlʌktənt",
+    "meanings": [
+      { "pos": "adj.", "text": "不情愿的；勉强的" }
+    ],
+    "synonyms": ["unwilling", "hesitant"],
+    "tags": ["CET6", "IELTS"]
   }
 ]

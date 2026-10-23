@@ -55,6 +55,17 @@ npm run typecheck
 npm test             # 词库解析/清洗/CSV/去重/筛选，共 57 项断言
 ```
 
+### 扩充词库（可一键生成 6000 高频词）
+
+```bash
+# 从「按频率排序」的词表生成各考试词库
+npm run wordbank:build -- --input <你的词表.csv|json|txt> --count 6000
+# 校验现有词库是否符合 schema
+npm run wordbank:validate
+```
+
+详见 [docs/WORDBANK.md](./docs/WORDBANK.md)。
+
 ### 打包安装包
 
 ```bash
@@ -120,7 +131,12 @@ kiro-pet/
 │   ├── wordbank-core.test.ts    # 57 项单元测试
 │   └── wordbank.ts              # Electron 侧封装：内置词库加载 + JSON/CSV 导入
 ├── scripts/
-│   └── run-tests.sh             # 无依赖测试运行器（Node 原生跑 TS）
+│   ├── run-tests.sh             # 无依赖测试运行器（transpile 后用 Node 跑 TS）
+│   ├── run-node-ts.sh           # 通用 TS 运行器（供 build/validate 复用）
+│   ├── build-wordbank.ts        # 词库构建管线：频率表 -> 各考试词库（可扩到 6000）
+│   └── validate-wordbank.ts     # 词库 schema 校验（可用于提交前/CI 门禁）
+├── docs/
+│   └── WORDBANK.md              # 词库构建与扩充指南
 ├── src/
 │   ├── shared/types.ts          # 跨进程共享类型
 │   ├── pet/                     # 桌宠渲染：KiroMascot（SVG）、眼睛追踪、动画
