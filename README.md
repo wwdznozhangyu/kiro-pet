@@ -144,6 +144,12 @@ kiro-pet/
 
 ---
 
+## 🤝 参与贡献
+
+本项目采用「分支 + Pull Request」流程，**不直接向 `main` 提交**。详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+---
+
 ## ✅ 测试状态
 
 - 核心词库逻辑：**57 / 57 单元测试通过**（`npm test`）。
