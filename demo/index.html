@@ -141,11 +141,39 @@
       </div>
     </section>
 
+    <!-- 下载区：指向 GitHub Release 的安装包；无资产时优雅降级到 Release 页 -->
+    <section class="download" id="download">
+      <h2>下载安装包</h2>
+      <p class="download__sub">
+        桌宠是桌面原生应用，请下载对应平台版本安装后体验完整功能。
+      </p>
+      <div class="download__btns">
+        <a class="dl-btn dl-btn--win" id="dlWin" href="https://github.com/wwdznozhangyu/kiro-pet/releases/latest" target="_blank" rel="noopener">
+          <span class="dl-btn__os">🪟 Windows</span>
+          <span class="dl-btn__hint" id="dlWinHint">.exe 安装包</span>
+        </a>
+        <a class="dl-btn dl-btn--mac" id="dlMac" href="https://github.com/wwdznozhangyu/kiro-pet/releases/latest" target="_blank" rel="noopener">
+          <span class="dl-btn__os"> macOS</span>
+          <span class="dl-btn__hint" id="dlMacHint">.dmg 安装包</span>
+        </a>
+      </div>
+      <p class="download__note" id="dlNote">
+        正在检测最新版本的安装包…
+      </p>
+      <p class="download__fallback">
+        所有版本见
+        <a href="https://github.com/wwdznozhangyu/kiro-pet/releases" target="_blank" rel="noopener">Releases 页面</a>
+        ；也可从源码自行构建：
+        <code>npm install &amp;&amp; npm run dist:win</code> / <code>dist:mac</code>。
+      </p>
+    </section>
+
     <footer class="footer">
       <p>Kiro Pet · 浏览器 Demo（桌面原生能力请下载应用体验）</p>
     </footer>
 
     <script src="./words.js"></script>
     <script src="./demo.js"></script>
+    <script src="./downloads.js"></script>
   </body>
 </html>

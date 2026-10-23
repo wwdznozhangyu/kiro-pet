@@ -69,8 +69,7 @@
           "target": "nsis",
           "arch": ["x64"]
         }
-      ],
-      "icon": "build/icon.ico"
+      ]
     },
     "nsis": {
       "oneClick": false,
@@ -86,9 +85,8 @@
           "arch": ["x64", "arm64"]
         }
       ],
-      "icon": "build/icon.icns",
       "category": "public.app-category.education",
-      "hardenedRuntime": true
+      "hardenedRuntime": false
     },
     "dmg": {
       "title": "Kiro Pet"

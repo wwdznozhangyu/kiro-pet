@@ -9,9 +9,23 @@
 · [贡献指南](./CONTRIBUTING.md)
 
 > 🌐 **在线 Demo**（浏览器可玩）：<https://wwdznozhangyu.github.io/kiro-pet/>
-> 演示萌宠眼睛追踪、眨眼、单词卡片与英美发音。桌面原生能力（透明置顶、托盘、开机自启）请下载应用体验。
+> 演示萌宠眼睛追踪、眨眼、单词卡片与英美发音，并提供 **Windows / macOS 安装包下载**。
+> 桌面原生能力（透明置顶、托盘、开机自启）请下载应用体验。
 > Demo 源码在 [`demo/`](./demo)，由 GitHub Actions 自动部署到 Pages
 > （需在仓库 **Settings → Pages** 将 Source 设为 “GitHub Actions”）。
+
+### 发布安装包（让下载按钮生效）
+
+下载按钮指向 **GitHub Release 的安装包资产**。推送一个版本 tag 即可由 CI 在
+Windows / macOS 原生 runner 上自动构建并上传 `.exe` / `.dmg`：
+
+```bash
+git tag v1.0.1
+git push origin v1.0.1   # 触发 .github/workflows/build-release.yml
+```
+
+构建完成后，Release 页面会出现 `.exe` 与 `.dmg`，Demo 页的下载按钮即自动解析到它们；
+若某平台暂无资产，按钮会优雅降级到 [Releases 页面](https://github.com/wwdznozhangyu/kiro-pet/releases)（不会 404）。
 
 ---
 

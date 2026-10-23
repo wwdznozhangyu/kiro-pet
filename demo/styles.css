@@ -274,3 +274,69 @@ html, body {
   font-size: 12px;
   color: #a78bda;
 }
+
+/* ---------- Download ---------- */
+.download {
+  max-width: 720px;
+  margin: 10px auto 0;
+  padding: 24px 20px 8px;
+  text-align: center;
+}
+.download h2 {
+  color: var(--purple);
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.download__sub {
+  font-size: 14px;
+  color: #475569;
+  margin: 0 0 20px;
+}
+.download__btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dl-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 200px;
+  padding: 16px 24px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  background: var(--purple);
+  box-shadow: 0 6px 16px rgba(109, 40, 217, 0.25);
+  transition: transform 0.1s, box-shadow 0.15s, opacity 0.15s;
+}
+.dl-btn--win { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+.dl-btn--mac { background: linear-gradient(135deg, #475569, #1e293b); }
+.dl-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(30, 41, 59, 0.3); }
+.dl-btn:active { transform: scale(0.98); }
+.dl-btn__os { font-size: 17px; font-weight: 700; }
+.dl-btn__hint { font-size: 12px; opacity: 0.9; word-break: break-all; }
+.dl-btn--ready { animation: dlPulse 1.2s ease; }
+@keyframes dlPulse {
+  0% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.5); }
+  100% { box-shadow: 0 6px 16px rgba(109, 40, 217, 0.25); }
+}
+.download__note {
+  font-size: 13px;
+  color: #64748b;
+  margin: 18px 0 4px;
+}
+.download__fallback {
+  font-size: 12px;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+.download__fallback a { color: var(--purple); font-weight: 600; }
+.download__fallback code {
+  background: #f5f3ff;
+  color: #6d28d9;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
