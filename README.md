@@ -4,8 +4,14 @@
 基于 **Electron + Vite + React + TypeScript**，`electron-builder` 打包出 Windows `.exe` 与 macOS `.dmg/.app`。
 
 **仓库地址**：https://github.com/wwdznozhangyu/kiro-pet
+· [在线 Demo](https://wwdznozhangyu.github.io/kiro-pet/)
 · [提交 Issue](https://github.com/wwdznozhangyu/kiro-pet/issues)
 · [贡献指南](./CONTRIBUTING.md)
+
+> 🌐 **在线 Demo**（浏览器可玩）：<https://wwdznozhangyu.github.io/kiro-pet/>
+> 演示萌宠眼睛追踪、眨眼、单词卡片与英美发音。桌面原生能力（透明置顶、托盘、开机自启）请下载应用体验。
+> Demo 源码在 [`demo/`](./demo)，由 GitHub Actions 自动部署到 Pages
+> （需在仓库 **Settings → Pages** 将 Source 设为 “GitHub Actions”）。
 
 ---
 
