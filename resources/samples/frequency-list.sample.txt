@@ -1,0 +1,16 @@
+# Frequency-ordered word list sample (most frequent first).
+# One word per line. Lines starting with # are ignored.
+# Feed a real 6000-word frequency list (e.g. COCA/BNC top 6000, or an
+# exam vocabulary list) to `npm run wordbank:build` to scale up.
+the
+be
+of
+and
+to
+have
+word
+example
+frequent
+abandon
+serendipity
+ubiquitous

@@ -123,5 +123,66 @@
     ],
     "synonyms": ["omnipresent", "universal"],
     "tags": ["TEM8", "TOEFL"]
+  },
+  {
+    "word": "aberration",
+    "ukPhonetic": "ˌæbəˈreɪʃn",
+    "usPhonetic": "ˌæbəˈreɪʃn",
+    "meanings": [
+      { "pos": "n.", "text": "偏离常规；反常现象" }
+    ],
+    "synonyms": ["anomaly", "deviation"],
+    "tags": ["TEM8"]
+  },
+  {
+    "word": "clandestine",
+    "ukPhonetic": "klænˈdestɪn",
+    "usPhonetic": "klænˈdestɪn",
+    "meanings": [
+      { "pos": "adj.", "text": "秘密的；暗中的" }
+    ],
+    "synonyms": ["secret", "covert"],
+    "tags": ["TEM8"]
+  },
+  {
+    "word": "ephemeral",
+    "ukPhonetic": "ɪˈfemərəl",
+    "usPhonetic": "ɪˈfemərəl",
+    "meanings": [
+      { "pos": "adj.", "text": "短暂的；转瞬即逝的" }
+    ],
+    "synonyms": ["fleeting", "transient"],
+    "tags": ["TEM8", "TOEFL"]
+  },
+  {
+    "word": "innocuous",
+    "ukPhonetic": "ɪˈnɒkjuəs",
+    "usPhonetic": "ɪˈnɑːkjuəs",
+    "meanings": [
+      { "pos": "adj.", "text": "无害的；无恶意的" }
+    ],
+    "synonyms": ["harmless", "benign"],
+    "tags": ["TEM8"]
+  },
+  {
+    "word": "pragmatic",
+    "ukPhonetic": "præɡˈmætɪk",
+    "usPhonetic": "præɡˈmætɪk",
+    "meanings": [
+      { "pos": "adj.", "text": "务实的；实用主义的" }
+    ],
+    "synonyms": ["practical", "realistic"],
+    "tags": ["TEM8", "IELTS", "TOEFL"]
+  },
+  {
+    "word": "tenacious",
+    "ukPhonetic": "təˈneɪʃəs",
+    "usPhonetic": "təˈneɪʃəs",
+    "meanings": [
+      { "pos": "adj.", "text": "坚韧的；顽强的" },
+      { "pos": "adj.", "text": "紧握不放的" }
+    ],
+    "synonyms": ["persistent", "determined"],
+    "tags": ["TEM8", "IELTS"]
   }
 ]

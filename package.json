@@ -14,6 +14,8 @@
     "build": "npm run build:renderer && npm run build:electron",
     "typecheck": "tsc -p tsconfig.electron.json --noEmit && tsc -p tsconfig.web.json --noEmit",
     "test": "bash scripts/run-tests.sh",
+    "wordbank:build": "bash scripts/run-node-ts.sh scripts/build-wordbank.ts",
+    "wordbank:validate": "bash scripts/run-node-ts.sh scripts/validate-wordbank.ts",
     "dist": "npm run build && electron-builder",
     "dist:win": "npm run build && electron-builder --win",
     "dist:mac": "npm run build && electron-builder --mac"
