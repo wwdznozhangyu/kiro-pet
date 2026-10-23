@@ -1,0 +1,56 @@
+name: Build & attach installers to Release
+
+# Builds the Windows .exe and macOS .dmg on native runners and uploads them as
+# assets to the GitHub Release for the pushed tag. This is what makes the demo
+# page's download buttons resolve to real installers.
+#
+# Trigger: push a version tag, e.g.
+#   git tag v1.0.1 && git push origin v1.0.1
+# or run manually from the Actions tab (workflow_dispatch) against a tag.
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write # needed to upload release assets
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            build_cmd: npm run dist:win
+            artifact_glob: release/*.exe
+          - os: macos-latest
+            build_cmd: npm run dist:mac
+            artifact_glob: release/*.dmg
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build installer
+        run: ${{ matrix.build_cmd }}
+        env:
+          # Avoid attempting code-signing/notarization in CI (no certificates here).
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+
+      - name: Upload installer to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ matrix.artifact_glob }}
+          fail_on_unmatched_files: true
