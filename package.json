@@ -4,6 +4,14 @@
   "description": "Kiro 桌宠 — 四六级 / 专八 / 雅思 / 托福 单词学习桌面宠物",
   "author": "Kiro",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wwdznozhangyu/kiro-pet.git"
+  },
+  "homepage": "https://github.com/wwdznozhangyu/kiro-pet#readme",
+  "bugs": {
+    "url": "https://github.com/wwdznozhangyu/kiro-pet/issues"
+  },
   "main": "dist/electron/main.js",
   "scripts": {
     "dev": "concurrently -k \"npm:dev:vite\" \"npm:dev:electron\"",

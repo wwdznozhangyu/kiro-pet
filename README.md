@@ -3,6 +3,10 @@
 跨平台（Windows / macOS）桌面端 **四六级 / 专八 / 雅思 / 托福** 单词学习桌宠应用。
 基于 **Electron + Vite + React + TypeScript**，`electron-builder` 打包出 Windows `.exe` 与 macOS `.dmg/.app`。
 
+**仓库地址**：https://github.com/wwdznozhangyu/kiro-pet
+· [提交 Issue](https://github.com/wwdznozhangyu/kiro-pet/issues)
+· [贡献指南](./CONTRIBUTING.md)
+
 ---
 
 ## ✨ 功能一览
@@ -38,6 +42,7 @@
 > 需要 Node.js 18+ 与联网环境以安装 Electron 等依赖。
 
 ```bash
+git clone https://github.com/wwdznozhangyu/kiro-pet.git
 cd kiro-pet
 npm install          # 安装依赖（需要网络）
 npm run dev          # 本地开发（Vite + Electron 热重载）
