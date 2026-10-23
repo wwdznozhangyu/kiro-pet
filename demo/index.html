@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiro Pet 桌宠 · 在线 Demo</title>
+    <meta
+      name="description"
+      content="Kiro Pet 桌宠的浏览器交互式 Demo：萌宠形象、眼睛追踪、单词卡片与英美发音（四六级/专八/雅思/托福）。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Kiro Pet 桌宠 <span>🟣</span></h1>
+      <p class="hero__sub">
+        四六级 · 专八 · 雅思 · 托福 单词学习桌宠 — 浏览器交互式 Demo
+      </p>
+      <p class="hero__links">
+        <a href="https://github.com/wwdznozhangyu/kiro-pet" target="_blank" rel="noopener">GitHub 仓库</a>
+        ·
+        <a href="https://github.com/wwdznozhangyu/kiro-pet#readme" target="_blank" rel="noopener">使用文档</a>
+      </p>
+      <p class="hero__note">
+        完整应用是一个 Electron 桌面程序（透明置顶桌宠 + 托盘 + 开机自启），
+        浏览器里无法还原这些系统能力。本页用相同的萌宠形象与单词卡逻辑，演示核心交互。
+      </p>
+    </header>
+
+    <main class="stage">
+      <!-- 桌宠舞台：鼠标移动时眼睛追踪，点击触发单词卡 -->
+      <section class="pet-area" id="petArea" aria-label="桌宠舞台（移动鼠标试试眼睛追踪，点击 Kiro 弹出单词卡）">
+        <div class="pet-hint" id="petHint">移动鼠标 → 眼睛会追踪你；点击 Kiro → 弹出单词卡</div>
+        <div class="pet" id="pet">
+          <!-- KiroMascot SVG：与桌面端渲染一致 -->
+          <svg class="mascot" id="mascot" viewBox="0 0 160 170" width="180" height="192" aria-label="Kiro">
+            <defs>
+              <linearGradient id="kiroBody" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#8b5cf6" />
+                <stop offset="100%" stop-color="#6d28d9" />
+              </linearGradient>
+              <radialGradient id="kiroCheek" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#f0abfc" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#f0abfc" stop-opacity="0" />
+              </radialGradient>
+              <filter id="kiroShadow" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1e1b4b" flood-opacity="0.25" />
+              </filter>
+            </defs>
+            <g class="mascot__tail" id="tail">
+              <ellipse cx="60" cy="150" rx="12" ry="7" fill="#6d28d9" />
+              <ellipse cx="100" cy="150" rx="12" ry="7" fill="#6d28d9" />
+            </g>
+            <g filter="url(#kiroShadow)">
+              <path
+                d="M80 14 C44 14 24 40 24 76 L24 120 C24 138 40 150 60 150 C70 150 74 142 80 142 C86 142 90 150 100 150 C120 150 136 138 136 120 L136 76 C136 40 116 14 80 14 Z"
+                fill="url(#kiroBody)"
+              />
+              <ellipse cx="80" cy="84" rx="46" ry="40" fill="#1e1b4b" />
+            </g>
+            <circle cx="44" cy="96" r="12" fill="url(#kiroCheek)" />
+            <circle cx="116" cy="96" r="12" fill="url(#kiroCheek)" />
+            <g>
+              <circle cx="64" cy="82" r="13" fill="#ffffff" />
+              <circle id="pupilL" cx="64" cy="82" r="6.5" fill="#1e1b4b" />
+              <circle id="glintL" cx="62" cy="80" r="2" fill="#ffffff" />
+              <circle cx="96" cy="82" r="13" fill="#ffffff" />
+              <circle id="pupilR" cx="96" cy="82" r="6.5" fill="#1e1b4b" />
+              <circle id="glintR" cx="94" cy="80" r="2" fill="#ffffff" />
+              <rect id="lidL" x="49" y="69" width="30" height="0" rx="13" fill="#1e1b4b" />
+              <rect id="lidR" x="81" y="69" width="30" height="0" rx="13" fill="#1e1b4b" />
+            </g>
+            <path d="M70 104 Q80 114 90 104" stroke="#f0abfc" stroke-width="3" stroke-linecap="round" fill="none" />
+          </svg>
+          <div class="pet-sign" id="petSign" hidden>单词来啦!</div>
+        </div>
+        <div class="pet-controls">
+          <button id="popBtn" class="btn btn--primary">弹出单词卡片</button>
+          <label class="exam-filter">
+            词库：
+            <select id="examSelect">
+              <option value="ALL" selected>全部</option>
+              <option value="CET4">四级</option>
+              <option value="CET6">六级</option>
+              <option value="TEM8">专八</option>
+              <option value="IELTS">雅思</option>
+              <option value="TOEFL">托福</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <!-- 单词卡片（与桌面端样式一致：圆角白底 + 浅蓝阴影） -->
+      <div class="card-overlay" id="cardOverlay" hidden>
+        <div class="card" id="card" role="dialog" aria-label="单词卡片">
+          <button class="card__close" id="cardClose" aria-label="关闭">×</button>
+          <div class="card__tags" id="cardTags"></div>
+          <div class="card__word" id="cardWord"></div>
+          <div class="card__phonetics" id="cardPhonetics"></div>
+          <ul class="card__meanings" id="cardMeanings"></ul>
+          <div class="card__syn" id="cardSyn" hidden>
+            <span class="card__syn-label">近义词</span>
+            <div class="card__syn-list" id="cardSynList"></div>
+          </div>
+          <div class="card__hint">点击任意处或按 Esc 收起</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 本次会话成果一览 -->
+    <section class="showcase">
+      <h2>本项目做了什么</h2>
+      <div class="showcase__grid">
+        <div class="feat">
+          <h3>🐾 桌宠</h3>
+          <p>透明无边框置顶、鼠标拖拽、眼睛追踪 + 眨眼、随机漫游/跳跃、双击弹卡、右键设置菜单（macOS 为 Control+点击）。</p>
+        </div>
+        <div class="feat">
+          <h3>🗂 单词卡片</h3>
+          <p>单词 + 英/美音标 + 发音喇叭、三条按考试优先级排序的释义（带词性）、2–3 个同义词；圆角白底 + 浅蓝阴影。</p>
+        </div>
+        <div class="feat">
+          <h3>📚 词库</h3>
+          <p>内置四六级/专八/雅思/托福核心词库；支持 JSON/CSV 导入；提供可扩至 6000 词的构建与校验管线。</p>
+        </div>
+        <div class="feat">
+          <h3>📦 打包</h3>
+          <p>Electron + Vite + React + TS；electron-builder 输出 Windows <code>.exe</code> 与 macOS <code>.dmg/.app</code>；可选开机自启。</p>
+        </div>
+        <div class="feat">
+          <h3>✅ 测试</h3>
+          <p>词库逻辑 57/57 单元测试通过；提供 schema 校验脚本可用于提交/CI 门禁。</p>
+        </div>
+        <div class="feat">
+          <h3>🔗 获取</h3>
+          <p>
+            <code>git clone https://github.com/wwdznozhangyu/kiro-pet.git</code><br />
+            <code>npm install &amp;&amp; npm run dev</code> 本地运行；<code>npm run dist:win / dist:mac</code> 打包。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Kiro Pet · 浏览器 Demo（桌面原生能力请下载应用体验）</p>
+    </footer>
+
+    <script src="./words.js"></script>
+    <script src="./demo.js"></script>
+  </body>
+</html>
